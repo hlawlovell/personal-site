@@ -1,0 +1,18 @@
+TODO LIST
+
+Japanese
+. Get data from anki using anki connect
+. Pull data from ttu ereader
+. Pull data from spotify podcasts and youtube by making a background app
+. Pull data from crunchy roll and youtube on PC by making a background app
+
+Climbing
+. Get data from moonboard by running a script and uploading to google drive
+. Pull data from google sheets
+
+Art
+. Get data from pomodoro app
+. Make a way to upload finished paintings, then automatically increment finished paintings count
+
+Finance
+. Pull data from ubank using ubank api

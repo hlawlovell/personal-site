@@ -39,6 +39,13 @@ export const MenuBar = () => {
 							</NavigationMenuLink>
 						</Link>
 					</NavigationMenuItem>
+					<NavigationMenuItem>
+						<Link href="/stats" legacyBehavior passHref>
+							<NavigationMenuLink className={navigationMenuTriggerStyle()}>
+								Stats
+							</NavigationMenuLink>
+						</Link>
+					</NavigationMenuItem>
 				</NavigationMenuList>
 			</NavigationMenu>
 		</div>

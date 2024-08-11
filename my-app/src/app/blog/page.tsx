@@ -1,9 +1,8 @@
 'use client';
 import { MenuBar } from '@/components/menu-bar';
 import { Button } from '@/components/ui/button';
-import { Card, CardDescription, CardFooter, CardHeader } from '@/components/ui/card';
+import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
-import { CardTitle } from '@snsw-gel/react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
