@@ -16,3 +16,14 @@ Art
 
 Finance
 . Pull data from ubank using ubank api
+
+
+TODO LIST ARCH
+
+* Create postgres database in docker container
+* Create api routes for making POST requests to DB
+* Make api call to get google sheets 
+* Create chrome extension for tracking youtube listening time
+* Create android background app that
+    * Performs a job every hour or day to make API request 
+    * Tracks spotify listening time

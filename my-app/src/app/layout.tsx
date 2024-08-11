@@ -2,6 +2,9 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { MenuBar } from '@/components/menu-bar';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { useState } from 'react';
+import Providers from '@/context/providers';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -18,8 +21,10 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={inter.className}>
-				<MenuBar />
-				<div className="mx-12 mt-12">{children}</div>
+				<Providers>
+					<MenuBar />
+					<div className="mx-12 mt-12">{children}</div>
+				</Providers>
 			</body>
 		</html>
 	);
